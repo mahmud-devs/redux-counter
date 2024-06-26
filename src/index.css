@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.btnMain {
+    display: flex;
+    gap: 30px;
+}
+.btnMain button{
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
